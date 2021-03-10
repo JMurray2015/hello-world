@@ -1,0 +1,96 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+```{r}
+location="https://github.com/JMurray2015/hello-world/raw/main/"
+  
+file="Median%20Income.csv"
+  
+linkToFile=paste0(location,file)
+```
+```{r}
+library(foreign)
+
+median_income=read.csv(linkToFile)
+```
+```{r} 
+which(!complete.cases(median_income))
+```
+```{r}
+na_vec <- which(!complete.cases(median_income))
+```
+```{r}
+NA_median_income <- median_income[-na_vec,]
+```
+```{r}
+NA_median_income$Data <- as.numeric(as.character(NA_median_income$Data))
+```
+```{r}
+NA_median_income=NA_median_income[complete.cases(NA_median_income$Data),]
+```
+
+```{r}
+aggregate(data=NA_median_income, Data~Location,median)
+
+```
+
+
+```{r}
+str(NA_median_income)
+```
+
+
+
+
+```{r}
+library(ggplot2)
+
+base=ggplot(data=NA_median_income, # data frame
+            aes(x=Data)) # what to plot 
+```
+```{r}
+#Creating histogram chart using the base instructions created in the previous chunk
+plot1= base + geom_histogram()
+# I need this to see the result:
+plot1 
+```
+```{r}
+# all text for titles
+Titles=list(Title="Washington State",
+            SubTi="Median income",
+            XTi="Median Income",
+            YTi="Observations",
+            Sou="Source: ACS")
+#
+# using the previous texts
+plot2= plot1 + labs(title = Titles$Title,
+                    subtitle = Titles$SubTi,
+                    x=Titles$XTi,
+                    y=Titles$YTi,
+                    caption = Titles$Sou)
+plot2
+```
+```{r}
+#texts for annotation
+message="Univariate"
+
+#annotating
+plot3=plot2 + annotate(geom = 'text',
+                       x =150000,y=200, #position
+                       label=message)
+plot3
+```
+```{r}
+plot4=plot3+ theme_minimal() #background change
+plot4
+```
+```{r}
+library(plotly)
+
+ggplotly(plot4)
+```
+After Aes make interactive - see session 3 for uni numerical, histogram shape, bins, etc.
+
+add a legend w SD, median, mean and make interactive with bins 

@@ -1,0 +1,118 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+```{r}
+library(sf)
+library(ggplot2)
+library(tmap)
+library(tmaptools)
+library(leaflet)
+library(dplyr)
+```
+
+```{r}
+location="https://github.com/JMurray2015/hello-world/raw/main/"
+  
+file="Median%20Income.csv"
+  
+linkToFile=paste0(location,file)
+```
+```{r}
+library(foreign)
+
+median_income=read.csv(linkToFile)
+```
+```{r}
+str(median_income)
+```
+```{r}
+which(!complete.cases(median_income))
+```
+
+
+```{r}
+na_vec <- which(!complete.cases(median_income))
+na_vec
+```
+```{r}
+NA_median_income <- median_income[-na_vec,]
+```
+```{r}
+NA_median_income$Data <- as.numeric(as.character(NA_median_income$Data)) 
+```
+
+```{r}
+NA_median_income=NA_median_income[complete.cases(NA_median_income$Data),]
+```
+```{r}
+simple_vec <- aggregate(data=NA_median_income, Data~Location,median)
+simple_vec
+```
+
+```{r}
+str(NA_median_income)
+```
+
+```{r}
+MapLocation="https://github.com/JMurray2015/hello-world/raw/main/"
+MapFile="county10.json"
+
+LinkMapFile=paste0(MapLocation,MapFile)
+
+```
+```{r}
+CountyMap <- read_sf(LinkMapFile, stringsAsFactors= FALSE)
+```
+```{r}
+str(CountyMap)
+```
+```{r}
+colnames(CountyMap)
+```
+```{r}
+names(CountyMap)[names(CountyMap) == "NAMELSAD10"] <- "Location"
+```
+```{r}
+head(CountyMap)
+```
+
+```{r}
+MergeMap=merge(CountyMap, #map first
+                   simple_vec, 
+                   by='Location')  
+```
+```{r}
+str(MergeMap)
+```
+```{r}
+library(ggplot2)
+# plot original map
+base=ggplot(data=CountyMap) + geom_sf(fill='grey90',
+                                     color=NA) + theme_classic()
+base
+
+```
+```{r}
+colMap= base + geom_sf(data=MergeMap,
+                       aes(fill='DemoIndex'),
+                       color=NA)
+colMap
+```
+```{r}
+colMap= base + geom_sf(data=MergeMap,
+                      aes(fill='DemoIndex'),
+                       color=NA)
+colMap
+```
+
+
+
+
+
+
+
+
+
+
+
