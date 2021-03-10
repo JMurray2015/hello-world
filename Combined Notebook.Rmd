@@ -1,0 +1,512 @@
+---
+title: "R Notebook"
+output:
+  html_document:
+    df_print: paged
+---
+
+#Univariates 
+
+```{r}
+location="https://github.com/adamh27/Visual-Data/raw/main/"
+file="Median%20Income.csv"
+
+linkToFile=paste0(location,file)
+```
+
+```{r}
+library(foreign)
+
+median_income=read.csv(linkToFile)
+```
+
+```{r}
+str(median_income)
+```
+
+```{r}
+library(foreign) #unknown library 
+
+median_income=read.csv(linkToFile) #load command to read data set in R
+
+```
+```{r}
+str(median_income) #view data frame to ensure proper import 
+```
+```{r}
+complete.cases(median_income) #Identify the NA values with T/F verification 
+
+#2520 Omitted entries
+```
+```{r}
+which(complete.cases(median_income)) #Shows which row values have complete values
+```
+```{r}
+which(!complete.cases(median_income)) #Which rows have the NA values
+```
+```{r}
+na_vec <- which(!complete.cases(median_income)) #Storing the NA variables here
+na_vec #View the new na_vec
+```
+```{r}
+No_NA_Median_Income <- median_income[-na_vec,] #Removing the NA data from the original data set and creating a new data set as N0_Na...
+
+#1,491 obs removed 
+```
+
+```{r}
+No_NA_Median_Income$Data <- as.numeric(as.character(No_NA_Median_Income$Data)) 
+```
+
+```{r}
+str(No_NA_Median_Income) #Checking if numeric change occured
+```
+
+```{r}
+#now I want to transform the data from a pure count into percents
+head(No_NA_Median_Income$Race,20)
+```
+```{r}
+#we want to build a table and transform the data to get percents
+
+absoluteT=table(No_NA_Median_Income$Race,
+                exclude = "nothing")
+
+absoluteT
+```
+
+```{r}
+prop.table(absoluteT)
+```
+```{r}
+#want to transform the data to be a traditional percentage value
+ToPlot=prop.table(absoluteT)*100
+
+ToPlot
+```
+
+```{r}
+# transform it into a data frame
+
+tableFreq=as.data.frame(ToPlot)
+
+names(tableFreq)=c("Race","pct")
+
+tableFreq
+```
+
+```{r}
+library(ggplot2)
+
+```
+```{r}
+Abase= ggplot(data = tableFreq, 
+             aes(x = Race,
+                 y = pct)) 
+```
+
+```{r}
+#Creating bar chart using the base instructions created in the previous chunk
+plotA1 = Abase + geom_bar(fill ="grey",
+                        stat = 'identity') 
+#using the color black to make the chart readable
+
+# I need this to see the result:
+plotA1
+
+```
+
+```{r}
+#Creating titles and labels for the the chart
+titleText="Percent of Each Racial Group"
+sourceText='Source: American Community Survey'
+
+plotA2 = plotA1 + labs(title=titleText,
+                     x =NULL, 
+                     y = NULL,
+                     caption = sourceText)
+plotA2
+```
+
+```{r}
+#changing the theme to make the chart more readable
+plotA3=plotA2+ theme_classic() + coord_flip()+ theme(axis.text = element_text(size = 10))
+plotA3
+```
+
+```{r}
+#Want to change the limits/breaks to put the individual bars in perspective
+library(scales) # for "unit_format""
+
+# customize Y axis
+plotA4 = plotA3 + scale_y_continuous(breaks=c(0,10, 20),
+                                   limits = c(0, 20), 
+                                   labels=unit_format(suffix = '%')) 
+plotA4
+
+```
+
+```{r}
+plotA5 = plotA4 + theme(plot.caption = element_text(hjust = 0), 
+                      plot.title = element_text(hjust = 0.5))
+plotA5
+
+```
+
+
+```{r}
+#I want to add a line in the chart at the average, to see which racial groups are under and over represented in the data set 
+
+plotA6 = plotA5 + geom_hline(yintercept = 14, #the average
+                           linetype="dashed", 
+                           size=1.5, #thickness
+                           alpha=0.5) #transparency
+plotA6
+```
+
+```{r}
+#I want to tilt the racial titles to make the chart redable in a non expanded format
+
+```
+
+```{r}
+#Lastly, I want to add the percentages for each bar to allow for better comparisons
+
+LABELS=paste0(round(tableFreq$pct,2), '%')
+
+plotA7 = plotA6 + geom_text(vjust=0,#adjust the height
+                            hjust=2.5,
+                          size = 4,#font face = "bold",
+                          aes(y = pct ,
+                              label = LABELS))
+plotA7 #final non-interactive plot
+
+
+```
+
+
+```{r}
+library(plotly) #make it interactive 
+
+ggplotly(plotA7)
+```
+
+UNIVARIATE TWO
+```{r}
+na_vec <- which(!complete.cases(median_income))
+```
+```{r}
+NA_median_income <- median_income[-na_vec,]
+```
+```{r}
+NA_median_income$Data <- as.numeric(as.character(NA_median_income$Data))
+```
+```{r}
+NA_median_income=NA_median_income[complete.cases(NA_median_income$Data),]
+```
+
+```{r}
+aggregate(data=NA_median_income, Data~Location,median)
+
+```
+
+
+```{r}
+str(NA_median_income)
+```
+
+
+
+
+```{r}
+library(ggplot2)
+
+base=ggplot(data=NA_median_income, # data frame
+            aes(x=Data)) # what to plot 
+```
+```{r}
+#Creating histogram chart using the base instructions created in the previous chunk
+plot1= base + geom_histogram()
+# I need this to see the result:
+plot1 
+```
+```{r}
+# all text for titles
+Titles=list(Title="Washington State",
+            SubTi="Median income",
+            XTi="Median Income",
+            YTi="Observations",
+            Sou="Source: ACS")
+#
+# using the previous texts
+plot2= plot1 + labs(title = Titles$Title,
+                    subtitle = Titles$SubTi,
+                    x=Titles$XTi,
+                    y=Titles$YTi,
+                    caption = Titles$Sou)
+plot2
+```
+```{r}
+#texts for annotation
+message="Univariate"
+
+#annotating
+plot3=plot2 + annotate(geom = 'text',
+                       x =150000,y=200, #position
+                       label=message)
+plot3
+```
+```{r}
+plot4=plot3+ theme_minimal() #background change
+plot4
+```
+```{r}
+library(plotly)
+
+ggplotly(plot4)
+```
+After Aes make interactive - see session 3 for uni numerical, histogram shape, bins, etc.
+
+add a legend w SD, median, mean and make interactive with bins 
+
+BIVARIATE 
+
+```{r}
+#Now we are interested in understanding how income differs across racial groups, this will be a CAT- NUM Bivariate visualization 
+
+names(No_NA_Median_Income)
+```
+
+```{r}
+summary(No_NA_Median_Income$Data)
+```
+
+```{r}
+# looking at how out of place the max is, looking at the top 20 earners. 
+
+library(magrittr) # for %>%
+No_NA_Median_Income[order(-No_NA_Median_Income$Data),c('Race','Data')]%>%head(20)
+```
+
+```{r}
+#Lets get the average of each group
+aggregate(data=No_NA_Median_Income, Data~Race,median)
+```
+
+```{r}
+#A box plot is an excellent way to visualize income data between the different groups 
+library(ggplot2)
+box=ggplot(data=No_NA_Median_Income,
+            aes(x=Race,
+                y=Data))
+
+box + geom_boxplot() 
+```
+
+BIVARIATE TWO 
+
+```{r}
+NA_median_income=NA_median_income[complete.cases(NA_median_income$Data),]
+```
+```{r}
+summary(NA_median_income)
+```
+```{r}
+aggregate(data=NA_median_income, Data~Location,median) #combining multiple observations to get median for each county 
+```
+```{r}
+simple_vec <- aggregate(data=NA_median_income, Data~Location,median)
+simple_vec
+```
+
+
+```{r}
+# barplot of median income by county 
+
+library(ggplot2)
+base=ggplot(data=simple_vec,
+            aes(x= reorder(Location, -Data),y=Data)) #order bars in descending value 
+
+plot1.1 = base + geom_bar(stat = "identity", width = 0.5, fill="steelblue" )
+```
+
+```{r}
+# all text for titles
+Titles=list(Title="Washington State",
+            SubTi="County Level Median Income",
+            XTi="County",
+            YTi="Aggregate Median Income",
+            Sou="Source: ACS")
+#
+# using the previous texts
+plot2.2= plot1.1 + labs(title = Titles$Title,
+                    subtitle = Titles$SubTi,
+                    x=Titles$XTi,
+                    y=Titles$YTi,
+                    caption = Titles$Sou)
+plot2.2
+```
+```{r}
+plot3.3=plot2.2+ theme_minimal()
+plot3.3 #change the theme of the plot 
+```
+```{r}
+plot4.4=plot3.3+ coord_flip()+ theme(axis.text = element_text(size = 5))
+plot4.4 #rotate plot and change variable text size 
+```
+```{r}
+library(plotly) #making interactive 
+
+ggplotly(plot4.4)
+```
+Rename columns to show "Data" as median income in the form of currency and remove the "reorder" command line from the interactive location naming 
+
+MAPS 
+
+```{r}
+library(sf)
+library(ggplot2)
+library(tmap)
+library(tmaptools)
+library(leaflet)
+library(dplyr)
+```
+
+```{r}
+NA_median_income <- median_income[-na_vec,]
+```
+```{r}
+NA_median_income$Data <- as.numeric(as.character(NA_median_income$Data)) 
+```
+
+```{r}
+NA_median_income=NA_median_income[complete.cases(NA_median_income$Data),]
+```
+```{r}
+simple_vec <- aggregate(data=NA_median_income, Data~Location,median)
+simple_vec #creating a data frame with to have only one observation per county 
+```
+
+```{r}
+str(NA_median_income)
+```
+
+```{r}
+MapLocation="https://github.com/JMurray2015/hello-world/raw/main/"
+MapFile="county10.json"
+
+LinkMapFile=paste0(MapLocation,MapFile)
+
+```
+```{r}
+CountyMap <- read_sf(LinkMapFile, stringsAsFactors= FALSE)
+```
+```{r}
+str(CountyMap)
+```
+```{r}
+colnames(CountyMap) #viewing column names of map data 
+```
+```{r}
+names(CountyMap)[names(CountyMap) == "NAMELSAD10"] <- "Location"
+```
+```{r}
+head(CountyMap)
+```
+
+```{r}
+MergeMap=merge(CountyMap, #map first
+                   simple_vec, 
+                   by='Location')  
+```
+```{r}
+str(MergeMap) #checking to see how the merge went 
+```
+```{r}
+library(ggplot2)
+# plot original map
+Mapbase=ggplot(data=CountyMap) + geom_sf(fill='grey90',
+                                     color=NA) + theme_classic()
+Mapbase
+
+```
+
+Dashboard 
+
+---
+title: "543 Dashboard"
+output:
+    flexdashboard::flex_dashboard: 
+      orientation: rows
+      social: menu
+      source: embed
+     df_print: paged
+---
+# Intro Text {.sidebar}
+
+The following information was sourced from the American Community Survey and includes the racial and ethnic distribution as well as median income within each Washington State county. Please find aggregate information on page 1, county level information on page 2, and county level mapping on page 3. 
+
+
+```{r setup, include=FALSE}
+library(flexdashboard)
+knitr::opts_chunk$set(error = TRUE)
+```
+
+# Univariate Plots 
+## R Markdown
+### box 
+
+
+```{r} 
+library(plotly)
+
+ggplotly(plot4)
+```
+Additional work: illustrate the sample mean, SD and confidence intervals - change observations to frequency 
+
+## Including Plots
+### box
+```{r}
+library(plotly)
+
+ggplotly(plotA7)
+```
+
+# Bivariate Plots
+## Column - column names dont appear in dashboard 
+### box 
+
+```{r pressure, echo=FALSE}
+library(plotly)
+
+ggplotly(plot4.4)
+```
+### box 
+
+```{r}
+library(plotly)
+
+ggplotly(box2)
+```
+Additional work: Either flip coord or adjust group names  
+
+# Maps
+## idk 
+### box 
+```{r}
+library(ggplot2)
+# plot original map
+base=ggplot(data=CountyMap) + geom_sf(fill='grey90',
+                                     color=NA) + theme_classic()
+base
+```
+
+Questions***: I am having a lot of difficulty merging the csv data with the map data despite renaming columns and the str/summary post merge appearing to have been correct. Have attempted shapefile and json, the methods in the session notes as well as multiple externally sourced. 
+
+Are we able to load the maps in manually via (ggmap), map_data, tmap functions such as tm_shape, tm_borders, etc. or another function? 
+
+### box 
+```{r}
+map 
+```
+ 
