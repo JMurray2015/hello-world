@@ -1,0 +1,70 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+```{r}
+read.csv(linkToFile)
+```
+
+```{r}
+str(NA_median_income)
+```
+
+```{r}
+summary(NA_median_income)
+```
+```{r}
+names(NA_median_income)
+```
+
+```{r}
+NA_median_income=NA_median_income[complete.cases(NA_median_income$Data),]
+```
+```{r}
+summary(NA_median_income)
+```
+```{r}
+aggregate(data=NA_median_income, Data~Location,median)
+```
+
+
+```{r}
+# boxplot of median income by county 
+
+library(ggplot2)
+base=ggplot(data=simple_vec,
+            aes(x= reorder(Location, -Data),y=Data))
+
+plot1.1 = base + geom_bar(stat = "identity", width = 0.5, fill="steelblue" )
+```
+
+```{r}
+# all text for titles
+Titles=list(Title="Washington State",
+            SubTi="County Level Median Income",
+            XTi="County",
+            YTi="Aggregate Median Income",
+            Sou="Source: ACS")
+#
+# using the previous texts
+plot2.2= plot1.1 + labs(title = Titles$Title,
+                    subtitle = Titles$SubTi,
+                    x=Titles$XTi,
+                    y=Titles$YTi,
+                    caption = Titles$Sou)
+plot2.2
+```
+```{r}
+plot3.3=plot2.2+ theme_minimal()
+plot3.3
+```
+```{r}
+plot4.4=plot3.3+ coord_flip()+ theme(axis.text = element_text(size = 5))
+plot4.4
+```
+```{r}
+library(plotly)
+
+ggplotly(plot4.4)
+```
+Rename columns to show "Data" as median income in the form of currency and remove the "reorder" command line from the interactive location naming 
