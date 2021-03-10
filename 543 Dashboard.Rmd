@@ -1,0 +1,78 @@
+---
+title: "543 Dashboard"
+output:
+  flexdashboard::flex_dashboard:
+    orientation: rows
+    social: menu
+    source: embed
+  html_document:
+    df_print: paged
+---
+# Intro Text {.sidebar}
+
+The following information was sourced from the American Community Survey and includes the racial and ethnic distribution as well as median income within each Washington State county. Please find aggregate information on page 1, county level information on page 2, and county level mapping on page 3. 
+
+
+```{r setup, include=FALSE}
+library(flexdashboard)
+knitr::opts_chunk$set(error = TRUE)
+```
+
+# Univariate Plots 
+## R Markdown
+### box 
+
+
+```{r} 
+library(plotly)
+
+ggplotly(plot4)
+```
+Additional work: illustrate the sample mean, SD and confidence intervals - change observations to frequency 
+
+## Including Plots
+### box
+```{r}
+library(plotly)
+
+ggplotly(plotA7)
+```
+
+# Bivariate Plots
+## Column - column names dont appear in dashboard 
+### box 
+
+```{r pressure, echo=FALSE}
+library(plotly)
+
+ggplotly(plot4.4)
+```
+### box 
+
+```{r}
+library(plotly)
+
+ggplotly(box2)
+```
+Additional work: Either flip coord or adjust group names  
+
+# Maps
+## idk 
+### box 
+```{r}
+library(ggplot2)
+# plot original map
+base=ggplot(data=CountyMap) + geom_sf(fill='grey90',
+                                     color=NA) + theme_classic()
+base
+```
+
+Questions***: I am having a lot of difficulty merging the csv data with the map data despite renaming columns and the str/summary post merge appearing to have been correct. Have attempted shapefile and json, the methods in the session notes as well as multiple externally sourced. 
+
+Are we able to load the maps in manually via (ggmap), map_data, tmap functions such as tm_shape, tm_borders, etc. or another function? 
+
+### box 
+```{r}
+map 
+```
+ 
