@@ -1,0 +1,430 @@
+﻿LocationType,Location,Race,TimeFrame,DataFormat,Income
+County,Adams,American Indian and Alaska Native,2005-2009,Currency,"*$7,195"
+County,Adams,American Indian and Alaska Native,2006-2010,Currency,"*$7,348"
+County,Adams,American Indian and Alaska Native,2007-2011,Currency,"*$17,614"
+County,Adams,American Indian and Alaska Native,2008-2012,Currency,6343
+County,Adams,American Indian and Alaska Native,2009-2013,Currency,"*$6,806"
+County,Adams,American Indian and Alaska Native,2010-2014,Currency,19135
+County,Adams,American Indian and Alaska Native,2011-2015,Currency,S
+County,Adams,American Indian and Alaska Native,2012-2016,Currency,20804
+County,Adams,American Indian and Alaska Native,2013-2017,Currency,23990
+County,Adams,American Indian and Alaska Native,2014-2018,Currency,24971
+County,Adams,American Indian and Alaska Native,2015-2019,Currency,24656
+County,Asotin,American Indian and Alaska Native,2005-2009,Currency,"*$27,344"
+County,Asotin,American Indian and Alaska Native,2006-2010,Currency,"*$26,736"
+County,Asotin,American Indian and Alaska Native,2007-2011,Currency,"*$26,944"
+County,Asotin,American Indian and Alaska Native,2008-2012,Currency,"*$25,909"
+County,Asotin,American Indian and Alaska Native,2009-2013,Currency,NA
+County,Asotin,American Indian and Alaska Native,2010-2014,Currency,S
+County,Asotin,American Indian and Alaska Native,2011-2015,Currency,S
+County,Asotin,American Indian and Alaska Native,2012-2016,Currency,S
+County,Asotin,American Indian and Alaska Native,2013-2017,Currency,S
+County,Asotin,American Indian and Alaska Native,2014-2018,Currency,NA
+County,Asotin,American Indian and Alaska Native,2015-2019,Currency,NA
+County,Benton,American Indian and Alaska Native,2005-2009,Currency,"*$54,219"
+County,Benton,American Indian and Alaska Native,2006-2010,Currency,"*$65,114"
+County,Benton,American Indian and Alaska Native,2007-2011,Currency,"*$61,354"
+County,Benton,American Indian and Alaska Native,2008-2012,Currency,"*$49,792"
+County,Benton,American Indian and Alaska Native,2009-2013,Currency,"*$58,833"
+County,Benton,American Indian and Alaska Native,2010-2014,Currency,39952
+County,Benton,American Indian and Alaska Native,2011-2015,Currency,46842
+County,Benton,American Indian and Alaska Native,2012-2016,Currency,49808
+County,Benton,American Indian and Alaska Native,2013-2017,Currency,47844
+County,Benton,American Indian and Alaska Native,2014-2018,Currency,NA
+County,Benton,American Indian and Alaska Native,2015-2019,Currency,NA
+County,Chelan,American Indian and Alaska Native,2005-2009,Currency,"*$80,063"
+County,Chelan,American Indian and Alaska Native,2006-2010,Currency,"*$44,750"
+County,Chelan,American Indian and Alaska Native,2007-2011,Currency,"*$24,605"
+County,Chelan,American Indian and Alaska Native,2008-2012,Currency,"*$46,250"
+County,Chelan,American Indian and Alaska Native,2009-2013,Currency,"*$48,333"
+County,Chelan,American Indian and Alaska Native,2010-2014,Currency,49931
+County,Chelan,American Indian and Alaska Native,2011-2015,Currency,54000
+County,Chelan,American Indian and Alaska Native,2012-2016,Currency,56841
+County,Chelan,American Indian and Alaska Native,2013-2017,Currency,67868
+County,Chelan,American Indian and Alaska Native,2014-2018,Currency,49583
+County,Chelan,American Indian and Alaska Native,2015-2019,Currency,NA
+County,Clallam,American Indian and Alaska Native,2005-2009,Currency,"*$27,582"
+County,Clallam,American Indian and Alaska Native,2006-2010,Currency,"*$31,283"
+County,Clallam,American Indian and Alaska Native,2007-2011,Currency,"*$34,000"
+County,Clallam,American Indian and Alaska Native,2008-2012,Currency,"*$37,534"
+County,Clallam,American Indian and Alaska Native,2009-2013,Currency,"*$35,500"
+County,Clallam,American Indian and Alaska Native,2010-2014,Currency,36463
+County,Clallam,American Indian and Alaska Native,2011-2015,Currency,35402
+County,Clallam,American Indian and Alaska Native,2012-2016,Currency,35705
+County,Clallam,American Indian and Alaska Native,2013-2017,Currency,34528
+County,Clallam,American Indian and Alaska Native,2014-2018,Currency,40000
+County,Clallam,American Indian and Alaska Native,2015-2019,Currency,50031
+County,Clark,American Indian and Alaska Native,2005-2009,Currency,"*$60,150"
+County,Clark,American Indian and Alaska Native,2006-2010,Currency,"*$49,495"
+County,Clark,American Indian and Alaska Native,2007-2011,Currency,"*$50,541"
+County,Clark,American Indian and Alaska Native,2008-2012,Currency,"*$51,141"
+County,Clark,American Indian and Alaska Native,2009-2013,Currency,"*$52,552"
+County,Clark,American Indian and Alaska Native,2010-2014,Currency,55948
+County,Clark,American Indian and Alaska Native,2011-2015,Currency,56803
+County,Clark,American Indian and Alaska Native,2012-2016,Currency,63611
+County,Clark,American Indian and Alaska Native,2013-2017,Currency,64896
+County,Clark,American Indian and Alaska Native,2014-2018,Currency,75653
+County,Clark,American Indian and Alaska Native,2015-2019,Currency,77734
+County,Columbia,American Indian and Alaska Native,2005-2009,Currency,"*$51,250"
+County,Columbia,American Indian and Alaska Native,2006-2010,Currency,"*$52,273"
+County,Columbia,American Indian and Alaska Native,2007-2011,Currency,"*$74,792"
+County,Columbia,American Indian and Alaska Native,2008-2012,Currency,"*$76,923"
+County,Columbia,American Indian and Alaska Native,2009-2013,Currency,"*$76,319"
+County,Columbia,American Indian and Alaska Native,2010-2014,Currency,78203
+County,Columbia,American Indian and Alaska Native,2011-2015,Currency,S
+County,Columbia,American Indian and Alaska Native,2012-2016,Currency,S
+County,Columbia,American Indian and Alaska Native,2013-2017,Currency,S
+County,Columbia,American Indian and Alaska Native,2014-2018,Currency,NA
+County,Columbia,American Indian and Alaska Native,2015-2019,Currency,NA
+County,Cowlitz,American Indian and Alaska Native,2005-2009,Currency,"*$35,577"
+County,Cowlitz,American Indian and Alaska Native,2006-2010,Currency,"*$40,179"
+County,Cowlitz,American Indian and Alaska Native,2007-2011,Currency,"*$36,406"
+County,Cowlitz,American Indian and Alaska Native,2008-2012,Currency,"*$39,500"
+County,Cowlitz,American Indian and Alaska Native,2009-2013,Currency,"*$31,594"
+County,Cowlitz,American Indian and Alaska Native,2010-2014,Currency,30270
+County,Cowlitz,American Indian and Alaska Native,2011-2015,Currency,42656
+County,Cowlitz,American Indian and Alaska Native,2012-2016,Currency,53750
+County,Cowlitz,American Indian and Alaska Native,2013-2017,Currency,50000
+County,Cowlitz,American Indian and Alaska Native,2014-2018,Currency,NA
+County,Cowlitz,American Indian and Alaska Native,2015-2019,Currency,61136
+County,Douglas,American Indian and Alaska Native,2005-2009,Currency,"*$18,684"
+County,Douglas,American Indian and Alaska Native,2006-2010,Currency,"*$31,250"
+County,Douglas,American Indian and Alaska Native,2007-2011,Currency,"*$46,157"
+County,Douglas,American Indian and Alaska Native,2008-2012,Currency,"*$20,729"
+County,Douglas,American Indian and Alaska Native,2009-2013,Currency,"*$21,438"
+County,Douglas,American Indian and Alaska Native,2010-2014,Currency,27708
+County,Douglas,American Indian and Alaska Native,2011-2015,Currency,S
+County,Douglas,American Indian and Alaska Native,2012-2016,Currency,76087
+County,Douglas,American Indian and Alaska Native,2013-2017,Currency,S
+County,Douglas,American Indian and Alaska Native,2014-2018,Currency,NA
+County,Douglas,American Indian and Alaska Native,2015-2019,Currency,NA
+County,Ferry,American Indian and Alaska Native,2005-2009,Currency,"*$31,979"
+County,Ferry,American Indian and Alaska Native,2006-2010,Currency,"*$27,031"
+County,Ferry,American Indian and Alaska Native,2007-2011,Currency,"*$24,809"
+County,Ferry,American Indian and Alaska Native,2008-2012,Currency,24813
+County,Ferry,American Indian and Alaska Native,2009-2013,Currency,"*$33,393"
+County,Ferry,American Indian and Alaska Native,2010-2014,Currency,28500
+County,Ferry,American Indian and Alaska Native,2011-2015,Currency,33906
+County,Ferry,American Indian and Alaska Native,2012-2016,Currency,34861
+County,Ferry,American Indian and Alaska Native,2013-2017,Currency,38036
+County,Ferry,American Indian and Alaska Native,2014-2018,Currency,39500
+County,Ferry,American Indian and Alaska Native,2015-2019,Currency,40375
+County,Franklin,American Indian and Alaska Native,2005-2009,Currency,"*$24,688"
+County,Franklin,American Indian and Alaska Native,2006-2010,Currency,"*$29,474"
+County,Franklin,American Indian and Alaska Native,2007-2011,Currency,"*$43,190"
+County,Franklin,American Indian and Alaska Native,2008-2012,Currency,"*$60,750"
+County,Franklin,American Indian and Alaska Native,2009-2013,Currency,"*$12,246"
+County,Franklin,American Indian and Alaska Native,2010-2014,Currency,12474
+County,Franklin,American Indian and Alaska Native,2011-2015,Currency,S
+County,Franklin,American Indian and Alaska Native,2012-2016,Currency,S
+County,Franklin,American Indian and Alaska Native,2013-2017,Currency,39444
+County,Franklin,American Indian and Alaska Native,2014-2018,Currency,44737
+County,Franklin,American Indian and Alaska Native,2015-2019,Currency,45000
+County,Garfield,American Indian and Alaska Native,2005-2009,Currency,NA
+County,Garfield,American Indian and Alaska Native,2006-2010,Currency,NA
+County,Garfield,American Indian and Alaska Native,2007-2011,Currency,NA
+County,Garfield,American Indian and Alaska Native,2008-2012,Currency,NA
+County,Garfield,American Indian and Alaska Native,2009-2013,Currency,NA
+County,Garfield,American Indian and Alaska Native,2010-2014,Currency,S
+County,Garfield,American Indian and Alaska Native,2011-2015,Currency,S
+County,Garfield,American Indian and Alaska Native,2012-2016,Currency,S
+County,Garfield,American Indian and Alaska Native,2013-2017,Currency,S
+County,Garfield,American Indian and Alaska Native,2014-2018,Currency,NA
+County,Garfield,American Indian and Alaska Native,2015-2019,Currency,NA
+County,Grant,American Indian and Alaska Native,2005-2009,Currency,"*$23,320"
+County,Grant,American Indian and Alaska Native,2006-2010,Currency,"*$24,625"
+County,Grant,American Indian and Alaska Native,2007-2011,Currency,"*$31,563"
+County,Grant,American Indian and Alaska Native,2008-2012,Currency,"*$55,781"
+County,Grant,American Indian and Alaska Native,2009-2013,Currency,"*$42,188"
+County,Grant,American Indian and Alaska Native,2010-2014,Currency,47656
+County,Grant,American Indian and Alaska Native,2011-2015,Currency,S
+County,Grant,American Indian and Alaska Native,2012-2016,Currency,S
+County,Grant,American Indian and Alaska Native,2013-2017,Currency,30000
+County,Grant,American Indian and Alaska Native,2014-2018,Currency,44063
+County,Grant,American Indian and Alaska Native,2015-2019,Currency,54188
+County,Grays Harbor,American Indian and Alaska Native,2005-2009,Currency,"*$47,759"
+County,Grays Harbor,American Indian and Alaska Native,2006-2010,Currency,"*$39,129"
+County,Grays Harbor,American Indian and Alaska Native,2007-2011,Currency,"*$36,827"
+County,Grays Harbor,American Indian and Alaska Native,2008-2012,Currency,"*$32,241"
+County,Grays Harbor,American Indian and Alaska Native,2009-2013,Currency,"*$37,361"
+County,Grays Harbor,American Indian and Alaska Native,2010-2014,Currency,35125
+County,Grays Harbor,American Indian and Alaska Native,2011-2015,Currency,31357
+County,Grays Harbor,American Indian and Alaska Native,2012-2016,Currency,33750
+County,Grays Harbor,American Indian and Alaska Native,2013-2017,Currency,37292
+County,Grays Harbor,American Indian and Alaska Native,2014-2018,Currency,38393
+County,Grays Harbor,American Indian and Alaska Native,2015-2019,Currency,51346
+County,Island,American Indian and Alaska Native,2005-2009,Currency,"*$57,875"
+County,Island,American Indian and Alaska Native,2006-2010,Currency,"*$76,688"
+County,Island,American Indian and Alaska Native,2007-2011,Currency,"*$79,750"
+County,Island,American Indian and Alaska Native,2008-2012,Currency,"*$69,531"
+County,Island,American Indian and Alaska Native,2009-2013,Currency,"*$51,250"
+County,Island,American Indian and Alaska Native,2010-2014,Currency,51442
+County,Island,American Indian and Alaska Native,2011-2015,Currency,57868
+County,Island,American Indian and Alaska Native,2012-2016,Currency,72563
+County,Island,American Indian and Alaska Native,2013-2017,Currency,50577
+County,Island,American Indian and Alaska Native,2014-2018,Currency,NA
+County,Island,American Indian and Alaska Native,2015-2019,Currency,46500
+County,Jefferson,American Indian and Alaska Native,2005-2009,Currency,"*$50,833"
+County,Jefferson,American Indian and Alaska Native,2006-2010,Currency,"*$51,250"
+County,Jefferson,American Indian and Alaska Native,2007-2011,Currency,"*$49,583"
+County,Jefferson,American Indian and Alaska Native,2008-2012,Currency,51406
+County,Jefferson,American Indian and Alaska Native,2009-2013,Currency,"*$51,705"
+County,Jefferson,American Indian and Alaska Native,2010-2014,Currency,50313
+County,Jefferson,American Indian and Alaska Native,2011-2015,Currency,53790
+County,Jefferson,American Indian and Alaska Native,2012-2016,Currency,41000
+County,Jefferson,American Indian and Alaska Native,2013-2017,Currency,S
+County,Jefferson,American Indian and Alaska Native,2014-2018,Currency,34375
+County,Jefferson,American Indian and Alaska Native,2015-2019,Currency,70938
+County,King,American Indian and Alaska Native,2005-2009,Currency,"*$44,544"
+County,King,American Indian and Alaska Native,2006-2010,Currency,"*$44,954"
+County,King,American Indian and Alaska Native,2007-2011,Currency,"*$54,063"
+County,King,American Indian and Alaska Native,2008-2012,Currency,"*$51,094"
+County,King,American Indian and Alaska Native,2009-2013,Currency,"*$49,224"
+County,King,American Indian and Alaska Native,2010-2014,Currency,47254
+County,King,American Indian and Alaska Native,2011-2015,Currency,50483
+County,King,American Indian and Alaska Native,2012-2016,Currency,47500
+County,King,American Indian and Alaska Native,2013-2017,Currency,52090
+County,King,American Indian and Alaska Native,2014-2018,Currency,53988
+County,King,American Indian and Alaska Native,2015-2019,Currency,56893
+County,Kitsap,American Indian and Alaska Native,2005-2009,Currency,"*$39,375"
+County,Kitsap,American Indian and Alaska Native,2006-2010,Currency,"*$44,375"
+County,Kitsap,American Indian and Alaska Native,2007-2011,Currency,"*$48,050"
+County,Kitsap,American Indian and Alaska Native,2008-2012,Currency,53294
+County,Kitsap,American Indian and Alaska Native,2009-2013,Currency,"*$53,162"
+County,Kitsap,American Indian and Alaska Native,2010-2014,Currency,55554
+County,Kitsap,American Indian and Alaska Native,2011-2015,Currency,55345
+County,Kitsap,American Indian and Alaska Native,2012-2016,Currency,61667
+County,Kitsap,American Indian and Alaska Native,2013-2017,Currency,59293
+County,Kitsap,American Indian and Alaska Native,2014-2018,Currency,61976
+County,Kitsap,American Indian and Alaska Native,2015-2019,Currency,72000
+County,Kittitas,American Indian and Alaska Native,2005-2009,Currency,"*$30,547"
+County,Kittitas,American Indian and Alaska Native,2006-2010,Currency,"*$30,069"
+County,Kittitas,American Indian and Alaska Native,2007-2011,Currency,"*$71,600"
+County,Kittitas,American Indian and Alaska Native,2008-2012,Currency,"*$74,076"
+County,Kittitas,American Indian and Alaska Native,2009-2013,Currency,"*$75,083"
+County,Kittitas,American Indian and Alaska Native,2010-2014,Currency,75000
+County,Kittitas,American Indian and Alaska Native,2011-2015,Currency,62045
+County,Kittitas,American Indian and Alaska Native,2012-2016,Currency,64457
+County,Kittitas,American Indian and Alaska Native,2013-2017,Currency,64837
+County,Kittitas,American Indian and Alaska Native,2014-2018,Currency,88875
+County,Kittitas,American Indian and Alaska Native,2015-2019,Currency,74402
+County,Klickitat,American Indian and Alaska Native,2005-2009,Currency,"*$19,375"
+County,Klickitat,American Indian and Alaska Native,2006-2010,Currency,"*$18,662"
+County,Klickitat,American Indian and Alaska Native,2007-2011,Currency,"*$18,750"
+County,Klickitat,American Indian and Alaska Native,2008-2012,Currency,"*$18,919"
+County,Klickitat,American Indian and Alaska Native,2009-2013,Currency,"*$28,468"
+County,Klickitat,American Indian and Alaska Native,2010-2014,Currency,29286
+County,Klickitat,American Indian and Alaska Native,2011-2015,Currency,S
+County,Klickitat,American Indian and Alaska Native,2012-2016,Currency,31429
+County,Klickitat,American Indian and Alaska Native,2013-2017,Currency,31034
+County,Klickitat,American Indian and Alaska Native,2014-2018,Currency,47971
+County,Klickitat,American Indian and Alaska Native,2015-2019,Currency,NA
+County,Lewis,American Indian and Alaska Native,2005-2009,Currency,"*$46,439"
+County,Lewis,American Indian and Alaska Native,2006-2010,Currency,"*$33,688"
+County,Lewis,American Indian and Alaska Native,2007-2011,Currency,"*$33,672"
+County,Lewis,American Indian and Alaska Native,2008-2012,Currency,"*$35,833"
+County,Lewis,American Indian and Alaska Native,2009-2013,Currency,"*$69,583"
+County,Lewis,American Indian and Alaska Native,2010-2014,Currency,67857
+County,Lewis,American Indian and Alaska Native,2011-2015,Currency,58594
+County,Lewis,American Indian and Alaska Native,2012-2016,Currency,53906
+County,Lewis,American Indian and Alaska Native,2013-2017,Currency,29205
+County,Lewis,American Indian and Alaska Native,2014-2018,Currency,NA
+County,Lewis,American Indian and Alaska Native,2015-2019,Currency,NA
+County,Lincoln,American Indian and Alaska Native,2005-2009,Currency,"*$60,833"
+County,Lincoln,American Indian and Alaska Native,2006-2010,Currency,"*$63,125"
+County,Lincoln,American Indian and Alaska Native,2007-2011,Currency,"*$63,375"
+County,Lincoln,American Indian and Alaska Native,2008-2012,Currency,"*$42,679"
+County,Lincoln,American Indian and Alaska Native,2009-2013,Currency,"*$34,167"
+County,Lincoln,American Indian and Alaska Native,2010-2014,Currency,S
+County,Lincoln,American Indian and Alaska Native,2011-2015,Currency,34792
+County,Lincoln,American Indian and Alaska Native,2012-2016,Currency,37143
+County,Lincoln,American Indian and Alaska Native,2013-2017,Currency,34844
+County,Lincoln,American Indian and Alaska Native,2014-2018,Currency,34375
+County,Lincoln,American Indian and Alaska Native,2015-2019,Currency,43125
+County,Mason,American Indian and Alaska Native,2005-2009,Currency,"*$52,656"
+County,Mason,American Indian and Alaska Native,2006-2010,Currency,"*$52,703"
+County,Mason,American Indian and Alaska Native,2007-2011,Currency,"*$54,792"
+County,Mason,American Indian and Alaska Native,2008-2012,Currency,"*$48,393"
+County,Mason,American Indian and Alaska Native,2009-2013,Currency,"*$48,750"
+County,Mason,American Indian and Alaska Native,2010-2014,Currency,52797
+County,Mason,American Indian and Alaska Native,2011-2015,Currency,46875
+County,Mason,American Indian and Alaska Native,2012-2016,Currency,43409
+County,Mason,American Indian and Alaska Native,2013-2017,Currency,34500
+County,Mason,American Indian and Alaska Native,2014-2018,Currency,32331
+County,Mason,American Indian and Alaska Native,2015-2019,Currency,39063
+County,Okanogan,American Indian and Alaska Native,2005-2009,Currency,"*$35,774"
+County,Okanogan,American Indian and Alaska Native,2006-2010,Currency,"*$25,921"
+County,Okanogan,American Indian and Alaska Native,2007-2011,Currency,"*$47,188"
+County,Okanogan,American Indian and Alaska Native,2008-2012,Currency,"*$34,250"
+County,Okanogan,American Indian and Alaska Native,2009-2013,Currency,"*$35,978"
+County,Okanogan,American Indian and Alaska Native,2010-2014,Currency,31853
+County,Okanogan,American Indian and Alaska Native,2011-2015,Currency,34940
+County,Okanogan,American Indian and Alaska Native,2012-2016,Currency,33019
+County,Okanogan,American Indian and Alaska Native,2013-2017,Currency,36763
+County,Okanogan,American Indian and Alaska Native,2014-2018,Currency,41875
+County,Okanogan,American Indian and Alaska Native,2015-2019,Currency,45926
+County,Pacific,American Indian and Alaska Native,2005-2009,Currency,"*$59,464"
+County,Pacific,American Indian and Alaska Native,2006-2010,Currency,"*$36,696"
+County,Pacific,American Indian and Alaska Native,2007-2011,Currency,"*$39,167"
+County,Pacific,American Indian and Alaska Native,2008-2012,Currency,"*$31,786"
+County,Pacific,American Indian and Alaska Native,2009-2013,Currency,"*$30,938"
+County,Pacific,American Indian and Alaska Native,2010-2014,Currency,26786
+County,Pacific,American Indian and Alaska Native,2011-2015,Currency,25625
+County,Pacific,American Indian and Alaska Native,2012-2016,Currency,36250
+County,Pacific,American Indian and Alaska Native,2013-2017,Currency,38125
+County,Pacific,American Indian and Alaska Native,2014-2018,Currency,27177
+County,Pacific,American Indian and Alaska Native,2015-2019,Currency,42857
+County,Pend Oreille,American Indian and Alaska Native,2005-2009,Currency,43886
+County,Pend Oreille,American Indian and Alaska Native,2006-2010,Currency,"*$44,458"
+County,Pend Oreille,American Indian and Alaska Native,2007-2011,Currency,"*$51,563"
+County,Pend Oreille,American Indian and Alaska Native,2008-2012,Currency,"*$51,053"
+County,Pend Oreille,American Indian and Alaska Native,2009-2013,Currency,"*$50,469"
+County,Pend Oreille,American Indian and Alaska Native,2010-2014,Currency,28188
+County,Pend Oreille,American Indian and Alaska Native,2011-2015,Currency,35833
+County,Pend Oreille,American Indian and Alaska Native,2012-2016,Currency,45469
+County,Pend Oreille,American Indian and Alaska Native,2013-2017,Currency,42109
+County,Pend Oreille,American Indian and Alaska Native,2014-2018,Currency,42583
+County,Pend Oreille,American Indian and Alaska Native,2015-2019,Currency,62763
+County,Pierce,American Indian and Alaska Native,2005-2009,Currency,53026
+County,Pierce,American Indian and Alaska Native,2006-2010,Currency,"*$57,958"
+County,Pierce,American Indian and Alaska Native,2007-2011,Currency,"*$56,823"
+County,Pierce,American Indian and Alaska Native,2008-2012,Currency,"*$54,784"
+County,Pierce,American Indian and Alaska Native,2009-2013,Currency,"*$55,682"
+County,Pierce,American Indian and Alaska Native,2010-2014,Currency,52976
+County,Pierce,American Indian and Alaska Native,2011-2015,Currency,54302
+County,Pierce,American Indian and Alaska Native,2012-2016,Currency,56091
+County,Pierce,American Indian and Alaska Native,2013-2017,Currency,59000
+County,Pierce,American Indian and Alaska Native,2014-2018,Currency,62676
+County,Pierce,American Indian and Alaska Native,2015-2019,Currency,65824
+County,San Juan,American Indian and Alaska Native,2005-2009,Currency,"*$38,750"
+County,San Juan,American Indian and Alaska Native,2006-2010,Currency,"*$37,500"
+County,San Juan,American Indian and Alaska Native,2007-2011,Currency,NA
+County,San Juan,American Indian and Alaska Native,2008-2012,Currency,NA
+County,San Juan,American Indian and Alaska Native,2009-2013,Currency,NA
+County,San Juan,American Indian and Alaska Native,2010-2014,Currency,81000
+County,San Juan,American Indian and Alaska Native,2011-2015,Currency,80833
+County,San Juan,American Indian and Alaska Native,2012-2016,Currency,81250
+County,San Juan,American Indian and Alaska Native,2013-2017,Currency,83646
+County,San Juan,American Indian and Alaska Native,2014-2018,Currency,56932
+County,San Juan,American Indian and Alaska Native,2015-2019,Currency,56250
+County,Skagit,American Indian and Alaska Native,2005-2009,Currency,"*$47,667"
+County,Skagit,American Indian and Alaska Native,2006-2010,Currency,"*$39,286"
+County,Skagit,American Indian and Alaska Native,2007-2011,Currency,"*$50,000"
+County,Skagit,American Indian and Alaska Native,2008-2012,Currency,"*$48,250"
+County,Skagit,American Indian and Alaska Native,2009-2013,Currency,"*$48,971"
+County,Skagit,American Indian and Alaska Native,2010-2014,Currency,39750
+County,Skagit,American Indian and Alaska Native,2011-2015,Currency,37689
+County,Skagit,American Indian and Alaska Native,2012-2016,Currency,36875
+County,Skagit,American Indian and Alaska Native,2013-2017,Currency,38571
+County,Skagit,American Indian and Alaska Native,2014-2018,Currency,59808
+County,Skagit,American Indian and Alaska Native,2015-2019,Currency,52798
+County,Skamania,American Indian and Alaska Native,2005-2009,Currency,"*$24,659"
+County,Skamania,American Indian and Alaska Native,2006-2010,Currency,"*$87,750"
+County,Skamania,American Indian and Alaska Native,2007-2011,Currency,"*$73,333"
+County,Skamania,American Indian and Alaska Native,2008-2012,Currency,"*$76,042"
+County,Skamania,American Indian and Alaska Native,2009-2013,Currency,"*$75,278"
+County,Skamania,American Indian and Alaska Native,2010-2014,Currency,71389
+County,Skamania,American Indian and Alaska Native,2011-2015,Currency,65833
+County,Skamania,American Indian and Alaska Native,2012-2016,Currency,53750
+County,Skamania,American Indian and Alaska Native,2013-2017,Currency,70488
+County,Skamania,American Indian and Alaska Native,2014-2018,Currency,72853
+County,Skamania,American Indian and Alaska Native,2015-2019,Currency,74613
+County,Snohomish,American Indian and Alaska Native,2005-2009,Currency,67127
+County,Snohomish,American Indian and Alaska Native,2006-2010,Currency,"*$68,423"
+County,Snohomish,American Indian and Alaska Native,2007-2011,Currency,68984
+County,Snohomish,American Indian and Alaska Native,2008-2012,Currency,"*$66,705"
+County,Snohomish,American Indian and Alaska Native,2009-2013,Currency,61714
+County,Snohomish,American Indian and Alaska Native,2010-2014,Currency,64070
+County,Snohomish,American Indian and Alaska Native,2011-2015,Currency,63679
+County,Snohomish,American Indian and Alaska Native,2012-2016,Currency,68444
+County,Snohomish,American Indian and Alaska Native,2013-2017,Currency,72618
+County,Snohomish,American Indian and Alaska Native,2014-2018,Currency,74700
+County,Snohomish,American Indian and Alaska Native,2015-2019,Currency,86964
+County,Spokane,American Indian and Alaska Native,2005-2009,Currency,"*$28,734"
+County,Spokane,American Indian and Alaska Native,2006-2010,Currency,"*$29,233"
+County,Spokane,American Indian and Alaska Native,2007-2011,Currency,"*$30,811"
+County,Spokane,American Indian and Alaska Native,2008-2012,Currency,"*$32,917"
+County,Spokane,American Indian and Alaska Native,2009-2013,Currency,"*$34,313"
+County,Spokane,American Indian and Alaska Native,2010-2014,Currency,32070
+County,Spokane,American Indian and Alaska Native,2011-2015,Currency,29063
+County,Spokane,American Indian and Alaska Native,2012-2016,Currency,37660
+County,Spokane,American Indian and Alaska Native,2013-2017,Currency,38604
+County,Spokane,American Indian and Alaska Native,2014-2018,Currency,40220
+County,Spokane,American Indian and Alaska Native,2015-2019,Currency,47850
+County,Stevens,American Indian and Alaska Native,2005-2009,Currency,"*$39,306"
+County,Stevens,American Indian and Alaska Native,2006-2010,Currency,"*$39,958"
+County,Stevens,American Indian and Alaska Native,2007-2011,Currency,"*$47,115"
+County,Stevens,American Indian and Alaska Native,2008-2012,Currency,"*$55,260"
+County,Stevens,American Indian and Alaska Native,2009-2013,Currency,"*$45,341"
+County,Stevens,American Indian and Alaska Native,2010-2014,Currency,42813
+County,Stevens,American Indian and Alaska Native,2011-2015,Currency,31591
+County,Stevens,American Indian and Alaska Native,2012-2016,Currency,33516
+County,Stevens,American Indian and Alaska Native,2013-2017,Currency,34643
+County,Stevens,American Indian and Alaska Native,2014-2018,Currency,41750
+County,Stevens,American Indian and Alaska Native,2015-2019,Currency,40250
+County,Thurston,American Indian and Alaska Native,2005-2009,Currency,"*$49,674"
+County,Thurston,American Indian and Alaska Native,2006-2010,Currency,"*$61,172"
+County,Thurston,American Indian and Alaska Native,2007-2011,Currency,"*$61,438"
+County,Thurston,American Indian and Alaska Native,2008-2012,Currency,63718
+County,Thurston,American Indian and Alaska Native,2009-2013,Currency,"*$63,844"
+County,Thurston,American Indian and Alaska Native,2010-2014,Currency,55395
+County,Thurston,American Indian and Alaska Native,2011-2015,Currency,46352
+County,Thurston,American Indian and Alaska Native,2012-2016,Currency,46285
+County,Thurston,American Indian and Alaska Native,2013-2017,Currency,49861
+County,Thurston,American Indian and Alaska Native,2014-2018,Currency,65547
+County,Thurston,American Indian and Alaska Native,2015-2019,Currency,70089
+County,Wahkiakum,American Indian and Alaska Native,2005-2009,Currency,NA
+County,Wahkiakum,American Indian and Alaska Native,2006-2010,Currency,NA
+County,Wahkiakum,American Indian and Alaska Native,2007-2011,Currency,NA
+County,Wahkiakum,American Indian and Alaska Native,2008-2012,Currency,NA
+County,Wahkiakum,American Indian and Alaska Native,2009-2013,Currency,NA
+County,Wahkiakum,American Indian and Alaska Native,2010-2014,Currency,S
+County,Wahkiakum,American Indian and Alaska Native,2011-2015,Currency,S
+County,Wahkiakum,American Indian and Alaska Native,2012-2016,Currency,S
+County,Wahkiakum,American Indian and Alaska Native,2013-2017,Currency,S
+County,Wahkiakum,American Indian and Alaska Native,2014-2018,Currency,NA
+County,Wahkiakum,American Indian and Alaska Native,2015-2019,Currency,NA
+County,Walla Walla,American Indian and Alaska Native,2005-2009,Currency,"*$18,375"
+County,Walla Walla,American Indian and Alaska Native,2006-2010,Currency,"*$44,583"
+County,Walla Walla,American Indian and Alaska Native,2007-2011,Currency,76289
+County,Walla Walla,American Indian and Alaska Native,2008-2012,Currency,75926
+County,Walla Walla,American Indian and Alaska Native,2009-2013,Currency,"*$66,071"
+County,Walla Walla,American Indian and Alaska Native,2010-2014,Currency,51484
+County,Walla Walla,American Indian and Alaska Native,2011-2015,Currency,S
+County,Walla Walla,American Indian and Alaska Native,2012-2016,Currency,36932
+County,Walla Walla,American Indian and Alaska Native,2013-2017,Currency,50484
+County,Walla Walla,American Indian and Alaska Native,2014-2018,Currency,NA
+County,Walla Walla,American Indian and Alaska Native,2015-2019,Currency,54219
+County,Whatcom,American Indian and Alaska Native,2005-2009,Currency,"*$45,774"
+County,Whatcom,American Indian and Alaska Native,2006-2010,Currency,"*$47,621"
+County,Whatcom,American Indian and Alaska Native,2007-2011,Currency,"*$44,107"
+County,Whatcom,American Indian and Alaska Native,2008-2012,Currency,"*$44,036"
+County,Whatcom,American Indian and Alaska Native,2009-2013,Currency,"*$43,527"
+County,Whatcom,American Indian and Alaska Native,2010-2014,Currency,42250
+County,Whatcom,American Indian and Alaska Native,2011-2015,Currency,37917
+County,Whatcom,American Indian and Alaska Native,2012-2016,Currency,41806
+County,Whatcom,American Indian and Alaska Native,2013-2017,Currency,44960
+County,Whatcom,American Indian and Alaska Native,2014-2018,Currency,48000
+County,Whatcom,American Indian and Alaska Native,2015-2019,Currency,48462
+County,Whitman,American Indian and Alaska Native,2005-2009,Currency,"*$54,286"
+County,Whitman,American Indian and Alaska Native,2006-2010,Currency,"*$54,125"
+County,Whitman,American Indian and Alaska Native,2007-2011,Currency,"*$100,909"
+County,Whitman,American Indian and Alaska Native,2008-2012,Currency,"*$47,188"
+County,Whitman,American Indian and Alaska Native,2009-2013,Currency,"*$39,375"
+County,Whitman,American Indian and Alaska Native,2010-2014,Currency,78750
+County,Whitman,American Indian and Alaska Native,2011-2015,Currency,S
+County,Whitman,American Indian and Alaska Native,2012-2016,Currency,41667
+County,Whitman,American Indian and Alaska Native,2013-2017,Currency,61136
+County,Whitman,American Indian and Alaska Native,2014-2018,Currency,64519
+County,Whitman,American Indian and Alaska Native,2015-2019,Currency,64671
+County,Yakima,American Indian and Alaska Native,2005-2009,Currency,"*$37,726"
+County,Yakima,American Indian and Alaska Native,2006-2010,Currency,"*$33,456"
+County,Yakima,American Indian and Alaska Native,2007-2011,Currency,"*$41,349"
+County,Yakima,American Indian and Alaska Native,2008-2012,Currency,"*$36,287"
+County,Yakima,American Indian and Alaska Native,2009-2013,Currency,"*$38,667"
+County,Yakima,American Indian and Alaska Native,2010-2014,Currency,40216
+County,Yakima,American Indian and Alaska Native,2011-2015,Currency,45322
+County,Yakima,American Indian and Alaska Native,2012-2016,Currency,47191
+County,Yakima,American Indian and Alaska Native,2013-2017,Currency,48502
+County,Yakima,American Indian and Alaska Native,2014-2018,Currency,52917
+County,Yakima,American Indian and Alaska Native,2015-2019,Currency,52313
